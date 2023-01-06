@@ -74,6 +74,7 @@ header {
 /*MAIN*/
 main{
     padding: 100px;
+    background-color: rgb(233, 138, 138);
 }
 
 main .social-icons {
@@ -81,6 +82,7 @@ main .social-icons {
     justify-content: center;
     margin-top: 40px;
     list-style: none;
+    background-color: rgb(154, 112, 112);
 }
 
 main .social-icons li {
@@ -90,9 +92,12 @@ main .social-icons li {
 main .social-icons .social-icon {
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: red;
-    padding: 15px;
-    width: 100%;
-    height: 100%;
+    align-items: right;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+}
+
+main .social-icons .social-icon img{
+    width: 40px;
 }
