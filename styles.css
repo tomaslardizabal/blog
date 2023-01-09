@@ -27,11 +27,15 @@ header {
 #logo {
     width: 50px;
 }
-#logo img {
+#logo {
     border-radius: 25%;
     border: 2px solid rgb(0, 0, 0);
 }
-
+#welcome{
+    color: white;
+    align-self: center;
+    margin-left: 15px;
+}
 /*HERO*/
 #hero {
     position: relative;
@@ -54,7 +58,7 @@ header {
 }
 
 #hero .information-container #foto {
-    width: 150px;
+    width: 200px;
 }
 
 #hero .information-container #foto img {
@@ -64,10 +68,11 @@ header {
 #hero .information-container .information{
     margin-left: 20px;
     font-weight: bold;
+    width: calc(100% - 200px);
 }
 
 #hero .information-container .information p {
-    margin-bottom: 70%;
+    margin-bottom: 70px;
     display: inline-block;
 }
 
@@ -82,7 +87,7 @@ main .social-icons {
     justify-content: center;
     margin-top: 40px;
     list-style: none;
-    background-color: rgb(154, 112, 112);
+    background-color: rgb(197, 144, 144);
 }
 
 main .social-icons li {
